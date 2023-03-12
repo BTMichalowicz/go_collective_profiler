@@ -679,7 +679,7 @@ func (v *validationCfg) profiler(keepResults bool, fullValidation bool) error {
 		v.testCfgs[testName].tempDir = tempDir
 
 		// Run the profiler
-		// todo: use https://github.com/gvallee/go_hpc_jobmgr so we can easilty validate on local machine and clusters
+		// todo: use https://github.com/BTMichalowicz/go_hpc_jobmgr so we can easilty validate on local machine and clusters
 		if validationStepIsSet(tt.cfg, traceGenerationStep) {
 			var stdout, stderr bytes.Buffer
 			for _, lib := range v.sharedLibraries {
