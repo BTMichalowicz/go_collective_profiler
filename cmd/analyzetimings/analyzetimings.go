@@ -15,9 +15,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/gvallee/go_collective_profiler/internal/pkg/analyzer"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/profiler"
-	"github.com/gvallee/go_util/pkg/util"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/analyzer"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/profiler"
+	"github.com/BTMichalowicz/go_util/pkg/util"
 )
 
 func main() {

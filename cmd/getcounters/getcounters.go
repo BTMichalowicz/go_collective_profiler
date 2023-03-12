@@ -15,8 +15,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gvallee/go_collective_profiler/pkg/counts"
-	"github.com/gvallee/go_util/pkg/util"
+	"github.com/BTMichalowicz/go_collective_profiler/pkg/counts"
+	"github.com/BTMichalowicz/go_util/pkg/util"
 )
 
 func main() {

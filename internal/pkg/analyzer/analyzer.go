@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gvallee/go_collective_profiler/pkg/counts"
+	"github.com/BTMichalowicz/go_collective_profiler/pkg/counts"
 )
 
 type analyzer struct {

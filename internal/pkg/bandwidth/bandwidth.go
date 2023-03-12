@@ -9,7 +9,7 @@ package bandwidth
 import (
 	"fmt"
 
-	"github.com/gvallee/go_collective_profiler/internal/pkg/scale"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/scale"
 )
 
 type CallData struct {

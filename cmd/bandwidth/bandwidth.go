@@ -17,13 +17,13 @@ import (
 	"runtime"
 	"sort"
 
-	"github.com/gvallee/go_collective_profiler/internal/pkg/bandwidth"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/patterns"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/profiler"
-	"github.com/gvallee/go_collective_profiler/pkg/comm"
-	"github.com/gvallee/go_collective_profiler/pkg/counts"
-	"github.com/gvallee/go_collective_profiler/pkg/timings"
-	"github.com/gvallee/go_util/pkg/util"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/bandwidth"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/patterns"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/profiler"
+	"github.com/BTMichalowicz/go_collective_profiler/pkg/comm"
+	"github.com/BTMichalowicz/go_collective_profiler/pkg/counts"
+	"github.com/BTMichalowicz/go_collective_profiler/pkg/timings"
+	"github.com/BTMichalowicz/go_util/pkg/util"
 )
 
 func main() {

@@ -11,7 +11,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/gvallee/go_collective_profiler/internal/pkg/format"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/format"
 )
 
 // WriteDatatypeToFile save datatype stats to a file

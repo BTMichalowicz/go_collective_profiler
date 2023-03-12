@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/gvallee/go_collective_profiler/internal/pkg/unit"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/unit"
 )
 
 /*

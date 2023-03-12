@@ -16,10 +16,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gvallee/go_collective_profiler/internal/pkg/format"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/grouping"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/progress"
-	"github.com/gvallee/go_util/pkg/util"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/format"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/grouping"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/progress"
+	"github.com/BTMichalowicz/go_util/pkg/util"
 )
 
 const (

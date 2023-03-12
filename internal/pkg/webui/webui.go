@@ -21,17 +21,17 @@ import (
 	"text/template"
 
 	"github.com/gomarkdown/markdown"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/bins"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/location"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/maps"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/patterns"
-	internalplotter "github.com/gvallee/go_collective_profiler/internal/pkg/plot"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/plugins"
-	"github.com/gvallee/go_collective_profiler/internal/pkg/profiler"
-	"github.com/gvallee/go_collective_profiler/pkg/comm"
-	"github.com/gvallee/go_collective_profiler/pkg/counts"
-	"github.com/gvallee/go_collective_profiler/pkg/timings"
-	"github.com/gvallee/go_util/pkg/util"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/bins"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/location"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/maps"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/patterns"
+	internalplotter "github.com/BTMichalowicz/go_collective_profiler/internal/pkg/plot"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/plugins"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/profiler"
+	"github.com/BTMichalowicz/go_collective_profiler/pkg/comm"
+	"github.com/BTMichalowicz/go_collective_profiler/pkg/counts"
+	"github.com/BTMichalowicz/go_collective_profiler/pkg/timings"
+	"github.com/BTMichalowicz/go_util/pkg/util"
 )
 
 type callsPageData struct {

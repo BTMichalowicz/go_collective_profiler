@@ -16,10 +16,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/gvallee/go_collective_profiler/internal/pkg/bins"
-	"github.com/gvallee/go_collective_profiler/pkg/comm"
-	"github.com/gvallee/go_collective_profiler/pkg/counts"
-	"github.com/gvallee/go_util/pkg/util"
+	"github.com/BTMichalowicz/go_collective_profiler/internal/pkg/bins"
+	"github.com/BTMichalowicz/go_collective_profiler/pkg/comm"
+	"github.com/BTMichalowicz/go_collective_profiler/pkg/counts"
+	"github.com/BTMichalowicz/go_util/pkg/util"
 )
 
 func getBinsFromCountFile(inputFile string, jobId int, commId int, leadRank int, listBins []int, outputDir string) error {
